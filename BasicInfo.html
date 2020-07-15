@@ -8,13 +8,48 @@
 <body>
 
     <header>
-        <h1>Basic Info</h1>
-        <ul>
+      <style>
+
+
+
+        .thin-white-border {
+          border-color:white;
+          border-width: 5px;
+          border-style: solid;
+          border-radius: 100px;
+          margin-top: 10px;
+          margin-right: 500px;
+          margin-bottom: 10px;
+          margin-left: 500px;
+        }
+        .center-alignment {
+          display: flex;
+          align-items: center;
+          justify-content: space-around;
+
+        }
+      
+        .lilac-box {
+          background-color: rgb(188, 188, 243);
+          padding: 10px;
+          border-color:black;
+          border-width: 5px;
+          border-style: solid;
+          width: 25%;
+          margin:auto;
+        }
+        
+        </style>
+        <h1 class="thin-white-border center-alignment">Basic Info</h1>
+        <div class="lilac-box center-alignment">
+        <div>
+          <ul>
           <li><a>Andrew Logan</a></li>
           <li><a>04/06/1987</a></li>
           <li><a>Glasgow, Scotland</a></li>
         </ul>
-
+        </div>
+      </div>
       </header>
 
 
@@ -24,7 +59,7 @@
 
     <a href=”https://github.com/JackRandom”>Github Profile</a>
 
-    <footer>&copy;"This is a footer"</footer>
+    <footer>"This is a footer"</footer>
 
 </body>
 </html>
