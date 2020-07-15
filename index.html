@@ -10,10 +10,30 @@
 
   <style>
 
+    .height-box { 
+      
+      height: 600px;
+    }
+
 .center-alignment {
           display: flex;
           align-items: center;
           justify-content: center;
+}
+.purple-square-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.purple-square {
+  background-color: #77527c;
+  padding: 10px;
+          border-color:black;
+          border-width: 5px;
+          border-style: solid;
+          width: 25%;
+          margin:auto;
 }
 
   </style>
@@ -25,9 +45,10 @@
 
         <ul>
           <li> <a href="BasicInfo.html">Basic Info</a> </li>
-          <li> <a href="#">Interests</a> </li>
-          <li> <a href="https://www.instagram.com/jack_random1987/" target="_blank">Social Media</a> </li> <!-- this links extranlly in a new tab to my instagam profile-->
-          </ul>
+          <li> <a href="#interests">Interests</a> </li> <!-- this links internally to my Interests section-->
+          <li> <a href="https://www.instagram.com/jack_random1987/" target="_blank">Social Media</a> </li> <!-- this links externally in a new tab to my instagam profile-->
+          <li> <a href="#current-activities">Current Activities</a> </li>
+        </ul>
       </div>
     </div>
           <form class="center-alignment">
@@ -42,6 +63,10 @@
 
     </nav> <!--end of navigation--> 
 
+    <div class="height-box">
+
+    </div>
+
     <header>
       <div class="inside">
       <section class="center-alignment">
@@ -50,16 +75,49 @@
       </div>
     </header>
 
-        
+     
       
 
-<section class="center-alignment">
+<h2 class="center-alignment">
    <button name= "button">Standard Button</button>  
-</section>
-     
-<section class="center-alignment"> 
-<p>I'm a paragraph</p>
-</section>
+</h2>
+
+<h3 id="interests" class="center-alignment"> My interests are listed below </h3>
+<div class="purple-square-container purple-square ">
+<ul>
+          <li><a>Football</a></li>
+          <li><a>Cycling</a></li>
+          <li><a>Watches</a></li>
+          <li><a>Video Games</a></li>
+          <li><a>Coding (this is new :))</a></li>
+        </ul>
+      </div>
+    </br>
+  </br>
+</br>  
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+<h4 id="current-activities" class="center-alignment"> Current Activities </h4>
+<p class="center-alignment">
+Im currently working through the Programming Foundations section of the Manchester Codes course.
+</p>
+
 
 
 
