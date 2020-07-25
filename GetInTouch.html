@@ -1,0 +1,47 @@
+<link rel="stylesheet" type="text/css" href="style.css">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get In Touch</title>
+</head>
+<body>   
+
+    <h1 class="h1">Get In Touch</h1>
+    <div class="center-alignment">
+    <form> <!-- form element-->
+        <ul class="ul1">
+         <li>
+           <input type="text" id="name" name="user_name" placeholder="Name:">
+         </li>
+         <li>
+           <input type="email" id="mail" name="user_email"placeholder="E-mail:">
+         </li>
+         <li>
+           <textarea id="msg" name="user_message"placeholder="Message" rows="5" cols="33"></textarea>
+         </li>
+        </ul>
+        <input id="submitButton" class="button center-alignment" type="submit" value="Submit" onclick="mysubmitFunction()">
+        <br>
+        <br>
+        <input id="clearButton" class="button center-alignment" type="reset" value="Clear">
+
+    
+        </form>
+</div>
+
+<script> 
+
+function mysubmitFunction() {
+   var name=document.getElementById("name")
+   var mail=document.getElementById("mail")
+   var msg=document.getElementById("msg")
+    alert(name.value+"\n"+mail.value+"\n"+msg.value);
+}
+
+    </script> 
+
+<footer class="center-alignment"><a href="index.html">Home</a></footer>
+</body>
+
