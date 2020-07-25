@@ -89,6 +89,9 @@ font-size: 20px;
     justify-content: space-around;
 
   }
+  .fa-instagram {
+    color: white;
+    font-size: 100%;
   }
   a:link {
     color: whitesmoke;
@@ -106,10 +109,8 @@ font-size: 20px;
     color: whitesmoke;
     text-decoration: none;
   }
-  .fa-instagram {
-    color: white;
-    font-size: 100%;
-  }
+
+ 
   
  <!-- scrapped styling -->
 
