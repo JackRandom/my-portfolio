@@ -53,6 +53,7 @@ column-gap: 10px;
 row-gap: 15px;
 text-decoration-color: whitesmoke;
 font-size: 20px;
+width: 150px;
 
 }
 .button {
@@ -102,21 +103,15 @@ font-size: 20px;
     text-decoration: none;
   }
 
+  .new-card {
+    width: 150px;                 /* Set width of cards */
+    display: flex;                /* Children use Flexbox */
+    flex-direction: column;       /* Rotate Axis */
+    border: 1px solid #fff;    /* Set up Border */
+    border-radius: 4px;           /* Slightly Curve edges */
+    overflow: hidden;             /* Fixes the corners */
+    margin: 5px;                  /* Add space between cards */
+  }
 
-.cards {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
-    grid-gap: 20px;
-}
 
-.card {
-    display: grid;
-    grid-template-rows: max-content 200px 1fr;
-}
-
-.card img {
-    object-fit: cover;
-    width: 100%;
-    height: 100%;
-}
   
