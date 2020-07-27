@@ -33,11 +33,6 @@ max-width: 100%;
 display: block;
 }
 
-  .height-box { 
-    
-    height: 600px;
-  }
-
 .center-alignment {
         display: flex;
         align-items: center;
@@ -85,12 +80,7 @@ font-size: 20px;
     margin-bottom: 10px;
     margin-left: 500px;
   }
-  .center-alignment {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-
-  }
+   
   .fa-instagram {
     color: white;
     font-size: 100%;
