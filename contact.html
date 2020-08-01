@@ -13,7 +13,7 @@
     <form> <!-- form element-->
         <ul class="ul1">
          <li>
-           <input type="text" id="name" name="user_name" placeholder="Name:">
+           <input type="text" id="firstName" name="user_name" placeholder="Name:">
          </li>
          <li>
            <input type="email" id="mail" name="user_email"placeholder="E-mail:">
@@ -22,26 +22,23 @@
            <textarea id="msg" name="user_message"placeholder="Message" rows="5" cols="33"></textarea>
          </li>
         </ul>
-        <input id="submitButton" class="button center-alignment" type="submit" value="Submit" onclick="mysubmitFunction()">
+        <!--<input id="submitButton" class="button center-alignment" type="submit" value="Submit" onclick="mysubmitFunction()"> -->
+        <button id="Submit" class="button center-alignment">Submit</button>
         <br>
         <br>
         <input id="clearButton" class="button center-alignment" type="reset" value="Clear">
-
-    
+          
         </form>
 </div>
 
 <script> 
 
-function mysubmitFunction() {
-   var name=document.getElementById("name")
-   var mail=document.getElementById("mail")
-   var msg=document.getElementById("msg")
-    alert(name.value+"\n"+mail.value+"\n"+msg.value);
-}
+var button = document.getElementById('Submit');
+ button.addEventListener('click', function() {alert(firstName.value+"\n"+mail.value+"\n"+msg.value);}, false);
 
-    </script> 
+</script> 
 
 <footer class="center-alignment"><a href="index.html">Home</a></footer>
 </body>
+
 
